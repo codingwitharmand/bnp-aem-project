@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/bnp",
+        "create path (nt:unstructured) /content/dam/bnp/jcr:content",
+        "set properties on /content/dam/bnp/jcr:content\n  set cq:conf{String} to /conf/bnp\n  set jcr:title{String} to \"BNP AEM Project\"\nend"
+    ]
+}

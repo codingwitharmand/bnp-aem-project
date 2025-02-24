@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/bnp" mode="merge"/>
+    <filter root="/content/bnp" mode="merge"/>
+    <filter root="/content/dam/bnp" mode="merge">
+        <exclude pattern="/content/dam/bnp(/.*)?"/>
+        <include pattern="/content/dam/bnp/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/bnp/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/bnp" mode="merge"/>
+</workspaceFilter>
