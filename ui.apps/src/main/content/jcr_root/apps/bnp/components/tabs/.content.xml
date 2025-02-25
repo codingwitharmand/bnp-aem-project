@@ -3,5 +3,5 @@
     cq:isContainer="{Boolean}true"
     jcr:primaryType="cq:Component"
     jcr:title="Tabs"
-    sling:resourceSuperType="core/wcm/components/tabs/v1/tabs"
+    sling:resourceSuperType="/apps/core/wcm/components/tabs/v1/tabs"
     componentGroup="BNP AEM Project - Content"/>

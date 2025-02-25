@@ -3,5 +3,5 @@
     xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Component"
     jcr:title="Table of Contents"
-    sling:resourceSuperType="core/wcm/components/tableofcontents/v1/tableofcontents"
+    sling:resourceSuperType="/apps/core/wcm/components/tableofcontents/v1/tableofcontents"
     componentGroup="BNP AEM Project - Content"/>

@@ -3,5 +3,5 @@
     cq:isContainer="{Boolean}true"
     jcr:primaryType="cq:Component"
     jcr:title="Accordion"
-    sling:resourceSuperType="core/wcm/components/accordion/v1/accordion"
+    sling:resourceSuperType="/apps/core/wcm/components/accordion/v1/accordion"
     componentGroup="BNP AEM Project - Content"/>
