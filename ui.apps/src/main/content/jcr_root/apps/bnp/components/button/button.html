@@ -1,0 +1,13 @@
+<sly data-sly-use.id="${properties.id}" />
+<button id="${id}"
+        class="${properties.border == 'withBorder' ? 'with-border' : ''}"
+        data-sly-test="${!properties.linkURL}">
+    ${properties.jcr:title}
+</button>
+<a id="${id}"
+   class="${properties.border == 'withBorder' ? 'with-border' : ''}"
+   data-sly-test="${properties.linkURL}"
+   href="${properties.linkURL}"
+   target="${properties.linkTarget ? '_blank' : ''}">
+    ${properties.jcr:title}
+</a>
